@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Empresa Júnior | UVV</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="icon" href="logo-icon.png">
+</head>
+<body>
+
+  <!-- ===== PRELOADER ===== -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-logo"><img src="logo-ejuvv.png" alt="logo-ejuvv"></div>
+      <div class="preloader-bar"><span></span></div>
+    </div>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <header id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon"><img src="logo-ejuvv.png" alt="logo-ejuvv"></i></span>
+        <div class="logo-text">
+          <span style="color: blueviolet; font-family: 'Times New Roman', Times, serif; font-size: larger;">EJ</span>
+          <span style="color: azure; font-family: 'Times New Roman', Times, serif; font-size: larger;">UVV</span>
+          <small>Empresa Júnior da UVV</small>
+        </div>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Início</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#servicos" class="nav-link">Serviços</a>
+        <a href="#numeros" class="nav-link">Resultados</a>
+        <a href="#profissionais" class="nav-link">Equipe</a>
+        <a href="#depoimentos" class="nav-link">Depoimentos</a>
+        <a href="#contato" class="nav-link nav-cta">Contato</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content reveal-hero">
+      <p class="hero-eyebrow">Entregando resultados desde 2016</p>
+      <h1 class="hero-title">
+        Impulsionar o<br />
+        <span class="purple-text">crescimento</span> do <br />
+        empreendedor.
+      </h1>
+      <p class="hero-subtitle">
+        Prometendo ser uma Empresa Júnior referência em faturamento, colaboração e diversidade, sendo reconhecidos pelo nosso impacto por todo o estado.
+      </p>
+      <div class="hero-actions">
+        <a href="#contato" class="btn btn-purple">Consulta Gratuita</a>
+        <a href="#servicos" class="btn btn-outline">Nossos Serviços</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Role para baixo</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE ===== -->
+  <section id="sobre" class="section sobre">
+    <div class="container">
+      <div class="sobre-grid">
+        <div class="sobre-image-wrap reveal-left">
+          <div class="sobre-image-frame">
+            <img src="imagem-sobre.jpg" alt="Astronauta" style="object-fit: contain; background: transparent;" />
+            <div class="sobre-badge">
+              <strong>+10</strong>
+              <span>Anos de Experiência</span>
+            </div>
+          </div>
+        </div>
+        <div class="sobre-content reveal-right">
+          <p class="section-eyebrow">Sobre a Empresa Júnior</p>
+          <h2 class="section-title">Comprometidos com a justiça e a ética profissional</h2>
+          <p class="sobre-text">
+            Aqui será adicionado um texto na espécie de subtítulo.
+          </p>
+          <p class="sobre-text">
+            Aqui será adicionado um texto na espécie de subtítulo.
+          </p>
+          <ul class="sobre-values">
+            <li><i class="fas fa-check-circle"></i> Ética e transparência</li>
+            <li><i class="fas fa-check-circle"></i> Equipe especializada e atualizada</li>
+            <li><i class="fas fa-check-circle"></i> Atendimento personalizado e humanizado</li>
+            <li><i class="fas fa-check-circle"></i> Resultados comprovados há mais de 10 anos</li>
+          </ul>
+          <a href="#contato" class="btn btn-purple">Fale Conosco</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVIÇOS ===== -->
+  <section id="servicos" class="section servicos">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow">Nossos principais serviços</p>
+        <h2 class="section-title">Serviços que <span class="gold-text">oferecemos</span></h2>
+        <p class="section-desc">Atuamos em diversas áreas, sempre com foco na melhor solução para o seu caso.</p>
+      </div>
+      <div class="servicos-grid">
+
+        <div class="servico-card reveal-up" style="--delay: 0.1s">
+          <div class="servico-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Assessoria Financeira</h3>
+          <p>Organiza e analisa as finanças do cliente para apoiar a tomada de decisões estratégicas, considerando sua realidade financeira por meio do controle e do acompanhamento contínuo da movimentação financeira.</p>
+          <a href="#contato" class="servico-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="servico-card reveal-up" style="--delay: 0.2s">
+          <div class="servico-icon"><i class="fas fa-desktop"></i></div>
+          <h3>Site Institucional</h3>
+          <p>Plataforma digital que apresenta a empresa no ambiente online, com informações institucionais, serviços e canais de contato, desenvolvida de forma personalizada, alinhada à identidade visual da marca e adaptada a diferentes dispositivos.</p>
+          <a href="#contato" class="servico-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="servico-card reveal-up" style="--delay: 0.3s">
+          <div class="servico-icon"><i class="fas fa-user-secret"></i></div>
+          <h3>Cliente Oculto</h3>
+          <p>Avalia anonimamente a experiência do cliente em estabelecimentos, fornecendo feedbacks objetivos para a empresa ajudando a melhorar a qualidade do atendimento.</p>
+          <a href="#contato" class="servico-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="servico-card reveal-up" style="--delay: 0.1s">
+          <div class="servico-icon"><i class="fas fa-briefcase"></i></div>
+          <h3>Plano de Negócios</h3>
+          <p>É um documento que descreve o empreendimento, incluindo análise de mercado, estrutura organizacional, projeções financeiras e estratégias para o sucesso do negócio.</p>
+          <a href="#contato" class="servico-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="servico-card reveal-up" style="--delay: 0.2s">
+          <div class="servico-icon"><i class="fas fa-bullseye"></i></div>
+          <h3>Estudo de Concorrente</h3>
+          <p>Analisa concorrentes em um mercado, identificando suas estratégias, pontos fortes e fracos e fornecendo insights para que a empresa possa se destacar e se adaptar ao ambiente competitivo.</p>
+          <a href="#contato" class="servico-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="servico-card reveal-up" style="--delay: 0.3s">
+          <div class="servico-icon"><i class="fas fa-users"></i></div>
+          <h3>Censo</h3>
+          <p>Realiza o levantamento e a análise de dados de um determinado universo, identificando características, perfis e comportamentos, a fim de gerar informações consolidadas para apoiar a tomada de decisão.</p>
+          <a href="#contato" class="servico-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NÚMEROS ===== -->
+  <section id="numeros" class="section numeros">
+    <div class="numeros-overlay"></div>
+    <div class="container">
+      <section class="resultados">Resultados</section>
+      <div class="numeros-grid">
+        <div class="numero-item reveal-up">
+          <span class="star-value">4.4</span>
+        <p>NPS</p>
+        </div>
+        <div class="numero-item reveal-up">
+          <span class="numero-value" data-target="231">0</span><span class="numero-plus">+</span>
+          <p>Alunos impactados</p>
+        </div>
+        <div class="numero-item reveal-up">
+          <span class="numero-value" data-target="46">0</span><span class="numero-plus">+</span>
+          <p>Projetos</p>
+        </div>
+        <div class="numero-item reveal-up">
+          <span class="numero-value" data-target="48">0</span><span class="numero-plus">+</span>
+          <p>Clientes</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROFISSIONAIS (CARROSSEL) ===== -->
+  <section id="profissionais" class="section profissionais">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow">Nossa Equipe</p>
+        <h2 class="section-title">Membros atuais</h2>
+        <p class="section-desc">Conheça os advogados que lideram nosso escritório com excelência e dedicação.</p>
+      </div>
+
+      <div class="carousel-wrapper reveal-up">
+        <div class="carousel-track" id="carouselTrack">
+
+          <div class="profissional-card">
+            <div class="prof-photo">
+              <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80" alt="Dr. Ricardo Ferreira" />
+              <div class="prof-social">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="prof-info">
+              <h3>Dr. Ricardo Ferreira</h3>
+              <span class="prof-role">Sócio Fundador — Direito Empresarial</span>
+              <p>Doutor em Direito Comercial pela USP com mais de 25 anos de atuação em fusões e aquisições.</p>
+            </div>
+          </div>
+
+          <div class="profissional-card">
+            <div class="prof-photo">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80" alt="Dra. Camila Souza" />
+              <div class="prof-social">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="prof-info">
+              <h3>Dra. Camila Souza</h3>
+              <span class="prof-role">Sócia — Direito Trabalhista</span>
+              <p>Especialista em relações coletivas de trabalho, com vasta experiência em negociações sindicais.</p>
+            </div>
+          </div>
+
+          <div class="profissional-card">
+            <div class="prof-photo">
+              <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=400&q=80" alt="Dr. Marcos Oliveira" />
+              <div class="prof-social">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="prof-info">
+              <h3>Dr. Marcos Oliveira</h3>
+              <span class="prof-role">Sócio — Direito Tributário</span>
+              <p>Mestre em Direito Tributário pela FGV, referência em planejamento fiscal e recuperação de créditos.</p>
+            </div>
+          </div>
+
+          <div class="profissional-card">
+            <div class="prof-photo">
+              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80" alt="Dra. Ana Lima" />
+              <div class="prof-social">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="prof-info">
+              <h3>Dra. Ana Lima</h3>
+              <span class="prof-role">Associada Sênior — Direito de Família</span>
+              <p>Especialista em direito sucessório e planejamento patrimonial, com abordagem humanizada.</p>
+            </div>
+          </div>
+
+          <div class="profissional-card">
+            <div class="prof-photo">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="Dr. Paulo Mendes" />
+              <div class="prof-social">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="prof-info">
+              <h3>Dr. Paulo Mendes</h3>
+              <span class="prof-role">Associado Sênior — Direito Imobiliário</span>
+              <p>Especialista em regularização fundiária e contratos imobiliários de grande complexidade.</p>
+            </div>
+          </div>
+
+          <div class="profissional-card">
+            <div class="prof-photo">
+              <img src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=400&q=80" alt="Dra. Juliana Costa" />
+              <div class="prof-social">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="prof-info">
+              <h3>Dra. Juliana Costa</h3>
+              <span class="prof-role">Associada — Direito do Consumidor</span>
+              <p>Atuação focada na proteção dos direitos do consumidor e litígios contra grandes corporações.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <button class="carousel-btn prev" id="prevBtn" aria-label="Anterior">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="carousel-btn next" id="nextBtn" aria-label="Próximo">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DEPOIMENTOS ===== -->
+  <section id="depoimentos" class="section depoimentos">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow">Depoimentos</p>
+        <h2 class="section-title">O que nossos clientes dizem</h2>
+      </div>
+      <div class="depoimentos-grid">
+
+        <div class="depoimento-card reveal-up" style="--delay: 0.1s">
+          <div class="depoimento-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="depoimento-text">"A EJUVV transformou completamente a gestão financeira da minha empresa. Profissionalismo e resultados impressionantes!"</p>
+          <div class="depoimento-autor">
+            <div class="autor-avatar">CS</div>
+            <div>
+              <strong>Carlos Silva</strong>
+              <span>Empresário</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="depoimento-card reveal-up" style="--delay: 0.2s">
+          <div class="depoimento-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="depoimento-text">"O serviço de Cliente Oculto nos ajudou a identificar pontos de melhoria que nunca teríamos percebido. Recomendo fortemente!"</p>
+          <div class="depoimento-autor">
+            <div class="autor-avatar">AO</div>
+            <div>
+              <strong>Ana Oliveira</strong>
+              <span>Gerente de Loja</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="depoimento-card reveal-up" style="--delay: 0.3s">
+          <div class="depoimento-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="depoimento-text">"A pesquisa de mercado realizada pela EJUVV nos deu insights valiosos para o lançamento do nosso produto. Excelente trabalho!"</p>
+          <div class="depoimento-autor">
+            <div class="autor-avatar">MS</div>
+            <div>
+              <strong>Marcos Santos</strong>
+              <span>Diretor de Marketing</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section id="contato" class="section contato">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow">Entre em Contato</p>
+        <h2 class="section-title">Agende sua <span class="purple-text">consulta gratuita</span></h2>
+        <p class="section-desc">Nossa equipe está pronta para analisar seu caso e apresentar as melhores possibilidades.</p>
+      </div>
+      <div class="contato-grid">
+        <div class="contato-info reveal-left">
+          <div class="contato-item">
+            <a href="https://www.google.com/maps/place/Universidade+Vila+Velha+-+UVV/@-20.3541106,-40.3017891,17z/data=!3m1!4b1!4m6!3m5!1s0xb8160595555555:0xeab993fdd7de1f61!8m2!3d-20.3541156!4d-40.2992142!16s%2Fg%2F11x7vrzxb?entry=ttu&g_ep=EgoyMDI2MDQwNy4wIKXMDSoASAFQAw%3D%3D">
+              <div class="contato-icon">
+                <i class="fas fa-map-marker-alt" style="color: #c9a84c;"></i>
+              </div>
+            </a>
+            <div>
+              <p><strong>Endereço</strong></p>
+              <p style="text-decoration: underline;"><a href="https://www.google.com/maps/place/Universidade+Vila+Velha+-+UVV/@-20.3541106,-40.3017891,17z/data=!3m1!4b1!4m6!3m5!1s0xb8160595555555:0xeab993fdd7de1f61!8m2!3d-20.3541156!4d-40.2992142!16s%2Fg%2F11x7vrzxb?entry=ttu&g_ep=EgoyMDI2MDQwNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Avenida Comissário José Dantas de Melo, 21 <br> Boa Vista II, Vila Velha - ES, 29102-920 </a></p>
+            </div>
+          </div>
+          <div class="contato-item">
+            <div class="contato-icon">
+              <i class="fas fa-phone-alt" style="color: #c9a84c;"></i>
+            </div>
+            <div>
+              <strong>Telefone</strong>
+              <p>(27) 3421-2001<br>(27) 4042-0092 (WhatsApp)</p>
+            </div>
+          </div>
+          <div class="contato-item">
+            <div class="contato-icon"><i class="fas fa-envelope" style="color: #c9a84c;"></i></div>
+            <div>
+              <strong>E-mail</strong>
+              <p style="text-decoration: underline;"><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWtDmCFXdGpcMvrDrGXLqKlPbBBDGwkdPhBNqgtNHxKFvjlvlCkdqmvZFKrqfMpGjtGjWbNTB" target="_blank" rel="noopener">comercial@ejuvv.com</a></p>
+            </div>
+          </div>
+          <div class="contato-item">
+            <div class="contato-icon"><i class="fas fa-clock" style="color: #c9a84c;"></i></div>
+            <div>
+              <strong>Horário de Atendimento</strong>
+              <p>Segunda a Sexta: 8h às 18h</p>
+            </div>
+          </div>
+          <div class="contato-social">
+            <a href="https://br.linkedin.com/company/empresa-j%C3%BAnior-uvv" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin-in" ></i></a>
+            <a href="https://www.instagram.com/ejuvv/" aria-label="Instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/ejuvv/?locale=pt_BR" aria-label="Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/552740420092" aria-label="WhatsApp" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <form class="contato-form reveal-right" id="contatoForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nome">Nome Completo *</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail *</label>
+              <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="(99) 9999-9999" />
+            </div>
+            <div class="form-group">
+              <label for="area">Serviço necessitado</label>
+              <select id="area" name="area">
+                <option value="">Selecione uma opção</option>
+                <option>Assessoria Financeira</option>
+                <option>Site Institucional</option>
+                <option>Cliente Oculto</option>
+                <option>Plano de Negócios</option>
+                <option>Estudo de Concorrente</option>
+                <option>Censo</option>
+                <option>Outra</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group full">
+            <label for="mensagem">Descreva seu caso *</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte-nos brevemente sobre sua situação..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-purple btn-full">
+            <i class="fas fa-paper-plane"></i> Enviar Mensagem
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i>
+            Mensagem enviada com sucesso! Entraremos em contato em breve.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="logo-ejuvv.png" alt="">
+            <div>
+              <strong>Empresa Júnior | UVV</strong>
+              <small>Consultoria em gestão empresarial</small>
+            </div>
+          </div>
+          <p>Comprometidos com a excelência jurídica e a defesa dos seus direitos há mais de 25 anos. <br> Sua confiança é nossa maior conquista.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Áreas de Atuação</h4>
+          <ul>
+            <li><a href="#servicos">Assessoria Financeira</a></li>
+            <li><a href="#servicos">Site Institucional</a></li>
+            <li><a href="#servicos">Cliente Oculto</a></li>
+            <li><a href="#servicos">Plano de Negócios</a></li>
+            <li><a href="#servicos">Estudo de Concorrente</a></li>
+            <li><a href="#servicos">Censo</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#sobre">Sobre o Escritório</a></li>
+            <li><a href="#profissionais">Nossa Equipe</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <ul class="footer-contact">
+            <li><i class="fas fa-map-marker-alt"></i> Av. Comissário José Dantas de Melo, 21, Vila Velha - ES</li>
+            <li><i class="fas fa-phone-alt"></i> (27) 3421-2001</li>
+            <li><i class="fab fa-whatsapp"></i> (27) 4042-0092</li>
+            <li><i class="fas fa-envelope"></i> comercial@ejuvv.com</li>
+            <li><i class="fas fa-clock"></i> Seg–Sex: 8h às 18h</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Empresa Júnior Universidade de Vila Velha. Todos os direitos reservados.</p>
+        <p> CNPJ 25.354.377/0001-70</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/552740420092" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>

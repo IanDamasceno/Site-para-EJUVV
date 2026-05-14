@@ -234,7 +234,9 @@ ul { list-style: none; }
 
 .purple-text { 
    color: var(--dark-purple);
-   border-text: var(--white);
+   border: 2px solid black var(--white);
+   
+   text-stroke: 2px var(--white);
 }
 
 .hero-subtitle {

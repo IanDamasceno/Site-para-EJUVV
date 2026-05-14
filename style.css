@@ -232,7 +232,10 @@ ul { list-style: none; }
   margin-bottom: 1.5rem;
 }
 
-.purple-text { color: var(--dark-purple); }
+.purple-text { 
+   color: var(--dark-purple);
+   border-text: var(--white);
+}
 
 .hero-subtitle {
   font-size: 1.05rem;

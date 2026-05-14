@@ -405,7 +405,7 @@ if (heroBg && window.innerWidth > 768) {
 /* ============================================================
    11. CURSOR GLOW (desktop only)
    ============================================================ */
-if (window.innerWidth > 1024) {
+/*if (window.innerWidth > 1024) {
   const glow = document.createElement('div');
   glow.style.cssText = `
     position: fixed; pointer-events: none; z-index: 9998;
@@ -421,7 +421,7 @@ if (window.innerWidth > 1024) {
     glow.style.left = `${e.clientX}px`;
     glow.style.top  = `${e.clientY}px`;
   });
-}
+}*/
 
 /* ============================================================
    12. INICIALIZAÇÃO GERAL
